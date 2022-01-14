@@ -4,7 +4,7 @@ import azure.cognitiveservices.speech as speechsdk
 
 # Creates an instance of a speech config with specified subscription key and service region.
 # Replace with your own subscription key and service region (e.g., "westus").
-speech_key, service_region = "6efe53e4508242b18b9375b78c2017f0", "eastus"
+speech_key, service_region = "", "westus"
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 # audio_config = AudioOutputConfig(filename="/Users/altumcaelum/Desktop/School/Microsoft/file.wav")
 # Creates a speech synthesizer using the default speaker as audio output.
